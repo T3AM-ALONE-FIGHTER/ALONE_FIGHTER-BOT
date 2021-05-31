@@ -4,10 +4,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $MAFIA_REPO == "ALONE-FIGHTER-BOT" ]]
+    if [[ $MAFIA_REPO == "ALONE_FIGHTER-BOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1QzQU0tRUxJVEVTL0VMSVRFUy1TUEFNLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $MAFIA_REPO == "ALONE-FIGHTER-BOT" ]]
+    elif [[ $MAFIA_REPO == "ALONE_FIGHTER-BOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1QzQU0tRUxJVEVTL0VMSVRFUy1TUEFNLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $MAFIA_REPO =~ $regex ]]
