@@ -1,1 +1,1 @@
-worker: bash alone-fighter-bot
+worker: bash alone_fighter-bot
